@@ -14,8 +14,8 @@ using Plots
 asset = "SWPPX"
 
 # Get the data
-# df0 = yahoo(:SWPPX)
-df0 = yahoo(:SWISX)
+df0 = yahoo(:SWPPX)
+# df0 = yahoo(:SWISX)
 # df0 = yahoo(:SWSSX)
 
 # Convert the date to a dataframe
