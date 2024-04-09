@@ -135,9 +135,7 @@ p1 = plot(
 )
 
 p1 = plot!(swisx.Day, swisx.Probability, label = "SWISX")
-
 p1 = plot!(swssx.Day, swssx.Probability, label = "SWSSX")
-
 p1 = plot!(swagx.Day, swagx.Probability, label = "SWAGX")
 
 display(p1)
